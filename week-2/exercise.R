@@ -26,7 +26,7 @@ said_the_famous <- paste(my_line, " - ", initial)
 # 
 
 
-## Part 2 - Vector and function practice
+# Part 2 - Vector and function practice
 
 # Make a vector and use typeof to check what type R considers it to be
 
@@ -50,3 +50,4 @@ said_the_famous <- paste(my_line, " - ", initial)
 
 # Write a function `caps_time` that takes in a vector of names of courses you're taking, ex "Informatics 201" and removes all capital letters
 
+lintr::lint("./exercise.R")
